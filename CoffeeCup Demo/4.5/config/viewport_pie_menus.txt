@@ -1,0 +1,476 @@
+{
+    "hotkeys": [
+        {
+            "keymap": "3D View",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_view_pie",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "C",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": true,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "3D View",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_camera",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "C",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "3D View",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_manipulator",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "SPACE",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "3D View",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_object_display",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "W",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": true,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "3D View",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_set_origin",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "X",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": true,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Mesh",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_mesh_delete",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "X",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Mesh",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_mesh_flatten",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "X",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Mesh",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_mesh_merge",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "M",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Mesh",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_mesh_selection",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "A",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Mesh",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_proportional_edit",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "O",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_object_add",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "A",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": true,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Non-modal",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_animation",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "SPACE",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": true,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_apply_transforms",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "A",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "OBJECT_MT_parenting_pie",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "P",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "OUTLINER_MT_relationship_pie",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "X",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_object_selection",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "A",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_proportional_edit",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "O",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Object Mode",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_select_object_name_relation",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "F",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Outliner",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "OUTLINER_MT_relationship_pie",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "X",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Sculpt",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_sculpt_brush_select",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "W",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Window",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_editor_switch",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "S",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": true,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Window",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_file",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "S",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Window",
+            "operator": "screen.area_join",
+            "op_kwargs": {},
+            "key_kwargs": {
+                "type": "ACCENT_GRAVE",
+                "value": "PRESS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Window",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_preferences",
+                "on_drag": false
+            },
+            "key_kwargs": {
+                "type": "U",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        },
+        {
+            "keymap": "Window",
+            "operator": "wm.call_menu_pie_drag_only",
+            "op_kwargs": {
+                "name": "PIE_MT_window",
+                "on_drag": true
+            },
+            "key_kwargs": {
+                "type": "SPACE",
+                "value": "PRESS",
+                "ctrl": true,
+                "shift": false,
+                "alt": false,
+                "any": false,
+                "oskey": false,
+                "key_modifier": "NONE",
+                "active": true
+            }
+        }
+    ]
+}

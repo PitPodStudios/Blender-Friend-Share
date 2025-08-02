@@ -1,0 +1,31 @@
+Input ▸ Attribute
+Input ▸ Color Attribute
+Attribute
+Texture ▸ Noise Texture
+Texture ▸ Wave Texture
+Vector ▸ Bump
+Texture ▸ Voronoi Texture
+Input ▸ Light Path
+Shader ▸ Transparent BSDF
+Shader ▸ Mix Shader
+Shader ▸ Principled Volume
+Shader ▸ Volume Scatter
+Deform ▸ Lattice
+  Lattice
+Generate ▸ Decimate
+Normals ▸ Weighted Normal
+Generate ▸ Remesh
+ 0 Material.017
+Generate ▸ Mirror
+Deform ▸ Shrinkwrap
+   Material.001
+   Material.004
+   Material.002
+   Material
+   Material.003
+Generate ▸ Subdivision Surface
+Generate ▸ Solidify
+Generate ▸ Boolean
+Normals ▸ Smooth by Angle
+Generate ▸ Bevel
+Texture ▸ Image Texture

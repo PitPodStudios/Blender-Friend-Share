@@ -1,0 +1,13 @@
+Transferring Blender settings, addons, and hotkeys from one computer to another
+
+	
+	1.search the following location on your Windows pc:
+
+
+		%appdata%\Blender Foundation\Blender\
+
+	2. You'll see a folder labelled "4.5" or whatever edition you're using.
+	
+	3. Copy and paste this folder from the old computer to the new computer in the same location
+
+	4. Startup a blender file in the new computer and ensure the addons, etc. are enabled.

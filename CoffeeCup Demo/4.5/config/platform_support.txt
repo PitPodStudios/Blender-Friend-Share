@@ -1,0 +1,1 @@
+{ATI Technologies Inc./AMD Radeon(TM) Graphics/4.6.0 Core Profile Context 24.12.1.241127}=SUPPORTED
